@@ -1,9 +1,10 @@
 classDiagram
-class ReprodutorMusical {
-+tocar()
-+pausar()
-+selecionarMusica(String musica)
-}
+```mermaid
+    class ReprodutorMusical {
+    +tocar()
+    +pausar()
+    +selecionarMusica(String musica)
+    }
 
     class AparelhoTelefonico {
         +ligar(String numero)
@@ -23,3 +24,4 @@ class ReprodutorMusical {
     iPhone --> ReprodutorMusical
     iPhone --> AparelhoTelefonico
     iPhone --> NavegadorInternet
+```
